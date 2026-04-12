@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Charge le .env
