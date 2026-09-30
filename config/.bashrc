@@ -16,3 +16,8 @@ alias cat="bat"
 
 PS1='[\u@\h \W]\$ '
 source /usr/share/bash-completion/bash_completion
+
+export QSYS_ROOTDIR="/home/wrlp/altera_lite/25.1std/quartus/sopc_builder/bin"
+
+# Added by Quartus Prime software
+export SALT_LICENSE_SERVER="$SALT_LICENSE_SERVER;/home/wrlp/.altera.quartus/questa_lic.dat"
