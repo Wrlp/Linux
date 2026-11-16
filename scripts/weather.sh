@@ -4,7 +4,7 @@
 source "$HOME/Linux/.env"
 
 # Ville
-CITY="Chicoutimi,CA"
+CITY="Paris,FR"
 
 # Récupération météo
 WEATHER=$(curl -s "https://api.openweathermap.org/data/2.5/weather?q=$CITY&units=metric&appid=$WEATHER_API_KEY")
